@@ -14,15 +14,6 @@ const port = 3000;
 const ip = getIp();
 const localPath = 'http://'+ip+':'+port  ;  //'http://localhost:3000';
 var publicPath = '';
-// if (DIST === 'localhost') {
-//   publicPath = localPath
-// } else if ( DIST === 'test'){
-//   publicPath = 'http://tcdn2.xhqb.com'
-// } else if ( DIST === 'uat'){
-//   publicPath = 'https://uatcdn.xhqb.com'
-// } else {
-//   publicPath = 'https://cdn.xhqb.com'
-// }
 
 module.exports = {
   /** The environment to use when building the project */

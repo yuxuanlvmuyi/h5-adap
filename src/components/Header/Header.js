@@ -39,11 +39,11 @@ class Header extends React.Component {
 	}
 
 	howPlay = () => {
-		alert('test1');
+		//alert('test1');
 	}
 
 	fairState = () => {
-		alert('test2');
+		//alert('test2');
 	}
 
 	render(){

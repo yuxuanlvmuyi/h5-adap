@@ -1,12 +1,7 @@
 import React from 'react'
 import cs from 'classnames'
 import './HomeView.less'
-// import { leftTimerByEnd } from '../../../utils/util.js'
 import Header from '../../../components/Header/Header'
-// import Bottom from '../../../components/Bottom/Bottom'
-// import Waiting from '../../../components/Waiting'
-// import ReviveCard from '../../../components/Rule/ReviveCard'
-// import Mask from '../../../components/Mask/Mask'
 import { smartContract, rankColumns, allBuyColumns, } from '../../../utils/constants'
 
 import { List, Button, Tabs, Table, message, Progress, } from 'antd';
@@ -31,6 +26,7 @@ class HomeView extends React.Component {
 			miwenValue: '',	   // 密文
 			statusDesc: '', // 状态对应的描述
 			buyAmount: '', // 购买的金额
+			totalCoinValue: '', //已经购买的总金额
 			rankData : [
 				{
 					"rank" : "1",
@@ -168,6 +164,7 @@ class HomeView extends React.Component {
 			message.info('购买TRX数量必须是10的整数倍');
 			return;
 		}
+		console.log("smartContract.contractBase58Address:", smartContract.contractBase58Address)
 		tronWeb.trx.getContract(smartContract.contractBase58Address).then(contract => {
 			console.log(contract)
             console.log('- Origin Address:', contract.origin_address);
@@ -219,6 +216,12 @@ class HomeView extends React.Component {
 		var priceValue = data['priceValue']
 		var minwenValue = data['minwenValue']
 		var miwenValue = data['miwenValue']
+		var totalCoinValue = data['totalCoinValue']
+		var processValue = ''
+		if(totalCoinValue && priceValue) {
+			processValue = parseInt(totalCoinValue)/parseInt(priceValue)*100
+		}
+		
 		if(statusValue == '1') {
 			statusDesc = '准备中'
 
@@ -234,6 +237,8 @@ class HomeView extends React.Component {
 			minwenValue: minwenValue,
 			miwenValue: miwenValue,
 			statusDesc: statusDesc,
+			totalCoinValue: totalCoinValue,
+			processValue: processValue,
 		})
 		console.log(statusValue)
 	}
@@ -269,6 +274,7 @@ class HomeView extends React.Component {
 
 	    // 实例化websoscket websocket有两种协议ws(不加密)和wss(加密)
 	    var webSocket = CreateWebSocket("ws://18.222.203.250:80/server");
+	    // var webSocket = CreateWebSocket("ws://127.0.0.1:3001");
 	    webSocket.onopen = function (evt) {
 	    	console.log('webSocket.onopen');
 	        // 一旦连接成功，就发送第一条数据

@@ -251,7 +251,7 @@ config.plugins.push(new HtmlWebpackPlugin({
     removeComments: true, //移除HTML中的注释
     collapseWhitespace: true,
   },
-  projectPath: process.env.DIST ==='www' || process.env.DIST ==='uat' ? "https://www.xhqb.com" : "http://test2.xhqb.com"     //project.staticPatch     //静态资源域名
+  projectPath: process.env.DIST ==='www' || process.env.DIST ==='uat' ? "" : ""     //project.staticPatch     //静态资源域名
 }))
 
 

@@ -1,14 +1,8 @@
 export const smartContract = {
-  developerAddress : 'TTVVtovFaTpLBQ5fHfcDWN8hxzPjGpW3ef', // 开发者账户地址
-  developerPrivateKey : 'FB0836516A9B6E2502A971A8175CA9986BB755A68609086BE291C1969FDBB441', // 开发者私钥
-  assistantPrivateKey : 'FB0836516A9B6E2502A971A8175CA9986BB755A68609086BE291C1969FDBB441', // assistant私钥
-  fullNodeUrl : 'http://47.90.240.201:8090',
-  solidityNodeUrl : 'http://47.90.240.201:8091',
-  eventServerUrl : 'http://47.90.240.201:8092',
-  contractHexAddress : '412c68606d590aeebdb56b09bc3d55bf11672e53be',
-  contractBase58Address : 'TE21miaHFLdgXYaNF4dinLxKJFumQn2yvC',
-  assistantHexAddress : '412c68606d590aeebdb56b09bc3d55bf11672e53be',
-  assistantBase58Address : 'TE21miaHFLdgXYaNF4dinLxKJFumQn2yvC',
+  //contractHexAddress : '412c68606d590aeebdb56b09bc3d55bf11672e53be',
+  //contractBase58Address : 'TE21miaHFLdgXYaNF4dinLxKJFumQn2yvC',
+  contractHexAddress : '4105e6aaf4d054aaa5ef28031cc755e494a1847f11',
+  contractBase58Address : 'TAWQi6d2pVUe4Eucjti71MxW38kXvK691P',
 }
 
 
