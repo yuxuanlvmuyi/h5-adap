@@ -282,6 +282,7 @@ class HomeView extends React.Component {
 	    // 关闭连接
 	    webSocket.onclose = function (evt) {
 	        console.log("Connection closed.")
+	        webSocket.close();
 	    }
     }
 
