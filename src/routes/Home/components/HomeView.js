@@ -268,7 +268,7 @@ class HomeView extends React.Component {
 	    })()
 
 	    // 实例化websoscket websocket有两种协议ws(不加密)和wss(加密)
-	    var webSocket = CreateWebSocket("ws://127.0.0.1:3001");
+	    var webSocket = CreateWebSocket("ws://18.222.203.250:3001");
 	    webSocket.onopen = function (evt) {
 	    	console.log('webSocket.onopen');
 	        // 一旦连接成功，就发送第一条数据
