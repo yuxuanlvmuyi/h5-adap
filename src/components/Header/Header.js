@@ -15,6 +15,7 @@ class Header extends React.Component {
 	constructor(props){
 		super(props);
 		const { howPlay, fairState } = this;
+		const { priceValue, localBase58Address } = this.props
 		this.state = {
 			howPlayFlag : false
 		}
@@ -31,19 +32,23 @@ class Header extends React.Component {
 		this.addrMenu = (
 			<Menu>
 				<div className='addr-menu-box' key="1">
+					<span>地址：</span>
+					<span>{localBase58Address}</span>
+				</div>
+				<div className='addr-menu-box' key="2">
 					<span>TRX余额：</span>
-					<span>0 TRX</span>
+					<span>{priceValue} TRX</span>
 				</div>
 			</Menu>
 		);
 	}
 
 	howPlay = () => {
-		//alert('test1');
+		window.location.href = 'https://github.com/AdaDapp/tronlucky.shop';
 	}
 
 	fairState = () => {
-		//alert('test2');
+		window.location.href = 'https://github.com/AdaDapp/tronlucky.shop';
 	}
 
 	render(){

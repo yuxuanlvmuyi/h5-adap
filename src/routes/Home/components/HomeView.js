@@ -28,104 +28,104 @@ class HomeView extends React.Component {
 			buyAmount: '', // 购买的金额
 			totalCoinValue: '', //已经购买的总金额
 			rankData : [
-				{
-					"rank" : "1",
-					"player" : "dasdasda***dasd",
-					"amount" : "1000",
-					"award"  : "100"
-				},
-				{
-					"rank" : "2",
-					"player" : "wwwdasda***dasd",
-					"amount" : "1000",
-					"award"  : "100"
-				},
-				{
-					"rank" : "3",
-					"player" : "pppdasda***dasd",
-					"amount" : "1000",
-					"award"  : "100"
-				},
-				{
-					"rank" : "4",
-					"player" : "uiydasda***dasd",
-					"amount" : "1000",
-					"award"  : "100"
-				},
-				{
-					"rank" : "1",
-					"player" : "dasdasda***dasd",
-					"amount" : "1000",
-					"award"  : "100"
-				},
-				{
-					"rank" : "2",
-					"player" : "wwwdasda***dasd",
-					"amount" : "1000",
-					"award"  : "100"
-				},
-				{
-					"rank" : "3",
-					"player" : "pppdasda***dasd",
-					"amount" : "1000",
-					"award"  : "100"
-				},
-				{
-					"rank" : "4",
-					"player" : "uiydasda***dasd",
-					"amount" : "1000",
-					"award"  : "100"
-				},
-				{
-					"rank" : "1",
-					"player" : "dasdasda***dasd",
-					"amount" : "1000",
-					"award"  : "100"
-				},
-				{
-					"rank" : "2",
-					"player" : "wwwdasda***dasd",
-					"amount" : "1000",
-					"award"  : "100"
-				},
-				{
-					"rank" : "3",
-					"player" : "pppdasda***dasd",
-					"amount" : "1000",
-					"award"  : "100"
-				},
-				{
-					"rank" : "4",
-					"player" : "uiydasda***dasd",
-					"amount" : "1000",
-					"award"  : "100"
-				}
+				// {
+				// 	"rank" : "1",
+				// 	"player" : "dasdasda***dasd",
+				// 	"amount" : "1000",
+				// 	"award"  : "100"
+				// },
+				// {
+				// 	"rank" : "2",
+				// 	"player" : "wwwdasda***dasd",
+				// 	"amount" : "1000",
+				// 	"award"  : "100"
+				// },
+				// {
+				// 	"rank" : "3",
+				// 	"player" : "pppdasda***dasd",
+				// 	"amount" : "1000",
+				// 	"award"  : "100"
+				// },
+				// {
+				// 	"rank" : "4",
+				// 	"player" : "uiydasda***dasd",
+				// 	"amount" : "1000",
+				// 	"award"  : "100"
+				// },
+				// {
+				// 	"rank" : "1",
+				// 	"player" : "dasdasda***dasd",
+				// 	"amount" : "1000",
+				// 	"award"  : "100"
+				// },
+				// {
+				// 	"rank" : "2",
+				// 	"player" : "wwwdasda***dasd",
+				// 	"amount" : "1000",
+				// 	"award"  : "100"
+				// },
+				// {
+				// 	"rank" : "3",
+				// 	"player" : "pppdasda***dasd",
+				// 	"amount" : "1000",
+				// 	"award"  : "100"
+				// },
+				// {
+				// 	"rank" : "4",
+				// 	"player" : "uiydasda***dasd",
+				// 	"amount" : "1000",
+				// 	"award"  : "100"
+				// },
+				// {
+				// 	"rank" : "1",
+				// 	"player" : "dasdasda***dasd",
+				// 	"amount" : "1000",
+				// 	"award"  : "100"
+				// },
+				// {
+				// 	"rank" : "2",
+				// 	"player" : "wwwdasda***dasd",
+				// 	"amount" : "1000",
+				// 	"award"  : "100"
+				// },
+				// {
+				// 	"rank" : "3",
+				// 	"player" : "pppdasda***dasd",
+				// 	"amount" : "1000",
+				// 	"award"  : "100"
+				// },
+				// {
+				// 	"rank" : "4",
+				// 	"player" : "uiydasda***dasd",
+				// 	"amount" : "1000",
+				// 	"award"  : "100"
+				// }
 			],
 			allBuyData : [
-				{
-					"time" : "18:20:01",
-					"player" : "dasdasda***dasd",
-					"amount" : "1000",
-					"award"  : "100"
-				},
-				{
-					"time" : "18:20:01",
-					"player" : "wwwdasda***dasd",
-					"amount" : "1000",
-					"award"  : "100"
-				},
-				{
-					"time" : "18:20:01",
-					"player" : "pppdasda***dasd",
-					"amount" : "1000",
-					"award"  : "100"
-				},
-				{
-					"time" : "18:20:01",
-					"player" : "uiydasda***dasd",
-					"amount" : "1000",
-					"award"  : "100"
-				}
+				// {
+				// 	"time" : "18:20:01",
+				// 	"player" : "dasdasda***dasd",
+				// 	"amount" : "1000",
+				// 	"award"  : "100"
+				// },
+				// {
+				// 	"time" : "18:20:01",
+				// 	"player" : "wwwdasda***dasd",
+				// 	"amount" : "1000",
+				// 	"award"  : "100"
+				// },
+				// {
+				// 	"time" : "18:20:01",
+				// 	"player" : "pppdasda***dasd",
+				// 	"amount" : "1000",
+				// 	"award"  : "100"
+				// },
+				// {
+				// 	"time" : "18:20:01",
+				// 	"player" : "uiydasda***dasd",
+				// 	"amount" : "1000",
+				// 	"award"  : "100"
+				// }
 			],
 
 		}
@@ -303,7 +303,7 @@ class HomeView extends React.Component {
 		const { rankData=[], allBuyData=[], statusValue, priceValue, balance, processValue, minwenValue, miwenValue, statusDesc } = this.state
 		return (
 			<div className='home-body'>
-				<Header />
+				<Header priceValue={priceValue} localBase58Address={localBase58Address} />
 				<div className='main-content-1'>
 					<div className='main-content-section-1'>
 						<div className='game-form'>
@@ -378,17 +378,7 @@ class HomeView extends React.Component {
 					</div>
 				</div>
 				<div className='main-content-2'>
-					<Tabs defaultActiveKey="1" onChange={self.callback} className='tabs-box'>
-				    	<TabPane tab="每日排行榜" key="1">
-						    <Table align='center' dataSource={rankData} columns={rankColumns} pagination={{ pageSize: 10 }} />
-				    	</TabPane>
-				    	<TabPane tab="所有投注" key="2">
-				    		<Table align='center' dataSource={allBuyData} columns={allBuyColumns} pagination={{ pageSize: 10 }} />
-				    	</TabPane>
-				    	<TabPane tab="我的投注" key="3">
-				    		<Table align='center' dataSource={allBuyData} columns={allBuyColumns} pagination={{ pageSize: 10 }} />
-				    	</TabPane>
-				  	</Tabs>
+					
 				</div>
 		  	</div>
 		)
